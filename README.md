@@ -13,6 +13,7 @@ This project within the course "Programming: The Next Step" at the University of
 - PsySys block 3: Video 3 + Exercise 3 - Choose feedback loops _(be presented with possible 2-3 edge feedback loops & choose which ones apply)_
 - PCR network: Be presented with the PCR network with the option to download the image
 
+
 **References** <br />
 $\qquad$ Borsboom, D. (2008). Psychometric perspectives on diagnostic systems. _Journal of Clinical Psychology, 64 (9)_, 1089–1108. <br />
 $\qquad$ Burger, J., van der Veen, D. C., Robinaugh, D. J., Quax, R., Riese, H., Schoevers, R. A., & Epskamp, S. (2020). Bridging the gap between complexity science and clinical practice by formalizing idiographic theories: a computational model of functional analysis. _BMC medicine, 18 (1)_, 1–18. <br />
