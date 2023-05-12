@@ -11,7 +11,7 @@ Most applications of the network approach in practice have relied on the estimat
 - to create a stand-alone application I will combine it with the psychoeducative content I've created for my master thesis and thereby aim to build an interactive learning experience 
 
 References <br />
-   Borsboom, D. (2008). Psychometric perspectives on diagnostic systems. _Journal of Clinical Psychology, 64 (9)_, 1089–1108. <br />
+$\qquad$ Borsboom, D. (2008). Psychometric perspectives on diagnostic systems. _Journal of Clinical Psychology, 64 (9)_, 1089–1108. <br />
    Burger, J., van der Veen, D. C., Robinaugh, D. J., Quax, R., Riese, H., Schoevers, R. A., & Epskamp, S. (2020). Bridging the gap between complexity science and clinical practice by formalizing idiographic theories: a computational model of functional analysis. _BMC medicine, 18 (1)_, 1–18. <br />
    Frewen, P. A., Allen, S. L., Lanius, R. A., & Neufeld, R. W. (2012). Perceived causal relations: novel methodology for assessing client attributions about causal associations between variables including symptoms and functional impairment. _Assessment, 19 (4)_, 480–493. <br />
    Fried, E. I., van Borkulo, C. D., Cramer, A. O., Boschloo, L., Schoevers, R. A., & Borsboom, D. (2017). Mental disorders as networks of problems: a review of recent insights. _Social psychiatry and psychiatric epidemiology, 52 (1)_, 1–10. <br />
