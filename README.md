@@ -1,8 +1,8 @@
-# PsySys education
+# PsySys app
 
 Over the past decade the network approach to psychopathology has gained considerable attention within the scientific community as an alternative way to conceptualize and study mental disorders (see Robinaugh et al. (2020) for a review). In contrast to the predominant common cause model postulating that a given disorder causes a set of observed symptoms, the network approach focuses on the dynamical interplay between the symptoms that is thought to give rise to the disorder (Borsboom, 2008). Thereby, the network approach breaks down clear disorder boundaries, which has proven fruitful in better understanding not only the heterogenous structure but also the observed co-morbidity in various mental disorders (Fried et al., 2017). 
 
-Most applications of the network approach in practice have relied on the estimation and analysis of personalized networks, aimed at reforming patient-centered care (Burger et al., 2020). However, the considerable limitations of the corresponding statistical methods, mainly linked to the extensive data they require resulting in a high participant burden. An alternative method to examine symptom relations has been proposed with Perceived Causal Relationship (PCR) scaling (Frewen, Allen, Lanius, & Neufeld, 2012). Instead of taking on a data-driven approach, PCR scaling relies on the individuals' perceptions to create symptom networks. After identifying the set of symptoms $S$ they are currently dealing with, respondents go through each symptom pair $s_{i},s_{j}$ to indicate the perceived relations between them $r_{i,j},r_{j,i}$, thereby iteratively building their own network themselves.  
+Most applications of the network approach in practice have relied on the estimation and analysis of personalized networks, aimed at reforming patient-centered care (Burger et al., 2020). However, the considerable limitations of the corresponding statistical methods, mainly linked to the extensive data they require resulting in a high participant burden. An alternative method to examine symptom relations has been proposed with Perceived Causal Relationship (PCR) scaling (Frewen, Allen, Lanius, & Neufeld, 2012). Instead of taking on a data-driven approach, PCR scaling relies on the individuals' perceptions to create symptom networks. After identifying the set of symptoms $S$ they are currently dealing with, respondents go through each symptom pair $s_{i},s_{j}$ to indicate the perceived relations between them $r_{i,j},r_{j,i}$, thereby iteratively building their own network themselves. While the PCR method offers a promising alternative to data-driven network estimation techniques, existing clinically adapted versions of the methods
 
 
  
@@ -10,7 +10,7 @@ Most applications of the network approach in practice have relied on the estimat
 - aim to implement a solutions that allows the creation of causal networks in a modular way (multipage rshiny app)
 - to create a stand-alone application I will combine it with the psychoeducative content I've created for my master thesis and thereby aim to build an interactive learning experience 
 
-References <br />
+**References** <br />
 $\qquad$ Borsboom, D. (2008). Psychometric perspectives on diagnostic systems. _Journal of Clinical Psychology, 64 (9)_, 1089–1108. <br />
 $\qquad$ Burger, J., van der Veen, D. C., Robinaugh, D. J., Quax, R., Riese, H., Schoevers, R. A., & Epskamp, S. (2020). Bridging the gap between complexity science and clinical practice by formalizing idiographic theories: a computational model of functional analysis. _BMC medicine, 18 (1)_, 1–18. <br />
 $\qquad$ Frewen, P. A., Allen, S. L., Lanius, R. A., & Neufeld, R. W. (2012). Perceived causal relations: novel methodology for assessing client attributions about causal associations between variables including symptoms and functional impairment. _Assessment, 19 (4)_, 480–493. <br />
