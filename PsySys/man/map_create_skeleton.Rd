@@ -2,7 +2,7 @@
 % Please edit documentation in R/map_create_skeleton.R
 \name{map_create_skeleton}
 \alias{map_create_skeleton}
-\title{Creates a mental-health map skeleton}
+\title{Create the initial mental-health map}
 \usage{
 map_create_skeleton(input_items)
 }
@@ -10,11 +10,12 @@ map_create_skeleton(input_items)
 \item{input_items}{A vector containing all selected factors.}
 }
 \value{
-A qgraph containing all selected factors and no edges between them.
+A 0 matrix with the number of dimensions corresponding to the number of selected factors.
 }
 \description{
-Creates a mental-health map skeleton
+Creates a mental-health map skeleton consisting of the selected factors.
 }
 \examples{
-map_create_skeleton(c("Loss of interest", "Bored", "Self-blame"))
+input_items <- c("Loss of interest", "Bored", "Self-blame")
+map_create_skeleton(input_items)
 }

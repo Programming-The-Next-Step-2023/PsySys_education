@@ -2,25 +2,27 @@
 % Please edit documentation in R/map_include_chains.R
 \name{map_include_chains}
 \alias{map_include_chains}
-\title{Includes input of chain exercise into mental-health map}
+\title{Include causal chains into mental-health map}
 \usage{
-map_include_chains(input_items, input_chain01, input_chain02)
+map_include_chains(current_matrix, input_chain01, input_chain02)
 }
 \arguments{
-\item{input_items}{A vector containing all selected factors.}
+\item{current_matrix}{An unweighted directed matrix.}
 
-\item{input_chain01}{A vector containing all drop down text field inputs of chain 1 of the  exercise on PsySys section 2.}
+\item{input_chain01}{A vector containing all drop down text field inputs of chain 1.}
 
-\item{input_chain02}{A vector containing all drop down text field inputs of chain 1 of the  exercise on PsySys section 2.}
+\item{input_chain02}{A vector containing all drop down text field inputs of chain 2.}
 }
 \value{
-A qgraph containing all selected factors and the causal chains the user selected.
+An updated unweighted directed matrix including the two causal chains.
 }
 \description{
-Includes input of chain exercise into mental-health map
+Includes input of chain exercise (PsySys section 2) into mental-health map.
 }
 \examples{
-map_include_chains(input$factors,
-                   c(input$chain01_01, input$chain01_02, input$chain01_03,
-                   input$chain02_01, input$chain02_02, input$chain02_03))
+current_matrix <- matrix(0, nrow = 3, ncol = 3)
+colnames(current_matrix) <- rownames(current_matrix) <- c("Stress", "Worrying", "Breakup")
+input_chain01 <- c("Stress", "Worrying", "Breakup")
+input_chain02 <- c("Worrying", "Stress", "Breakup")
+map_include_chains(current_matrix, input_chain01, input_chain02)
 }

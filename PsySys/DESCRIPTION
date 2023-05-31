@@ -4,7 +4,7 @@ Title: PsySys Education Shiny App
 Version: 0.1.0
 Author: Emily Campos Sindermann
 Maintainer: The package maintainer <campos.sindermann@gmail.com>
-Description: Provides an interactive learning experience where the user can iteratively build their own mental-health map.devt
+Description: Provides an interactive learning experience where the user can iteratively build their own mental-health map.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
