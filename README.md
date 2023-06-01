@@ -1,4 +1,4 @@
-# PsySys app
+# PsySys - Psychological Systems Education
 
 This repository contains the PsySys R package which includes an R shiny application and was created as a final project for the course "Programming: The Next Step" at the University of Amsterdam. PsySys - Psychological Systems Education - is a network-informed psychoeducation aimed at helping individuals to better understand and deal with their mental-health. The shiny application transforms the psychoeducative content into an interactive learning experience in which the user creates their own perceived causal network (hereinafter: mental-health map). 
 
