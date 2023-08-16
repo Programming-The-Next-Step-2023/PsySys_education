@@ -1,0 +1,10 @@
+name: psysys
+title:
+username: psysys
+account: psysys
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9597342
+bundleId: 7573745
+url: https://psysys.shinyapps.io/psysys/
+version: 1
