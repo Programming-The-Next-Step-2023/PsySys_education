@@ -3,5 +3,5 @@
 #' @export
 
 startPsySys <- function() {
-  shinyApp(ui = ui, server = server, appName = "psysys")
+  shinyApp(ui = ui, server = server)
 }
